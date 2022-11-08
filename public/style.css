@@ -1,1 +1,55 @@
-/*empty*/
+body {
+    font-family: "Times New Roman";
+    font-size: 10pt;
+}
+
+.welcome { 
+    margin: 20px;
+    height: 250px;
+    overflow: hidden;
+} 
+
+#title { 
+    position: absolute;
+    font-size: 50px;
+    margin: 100px;
+    padding: 25px;
+    margin-top: -180px;
+    left: 200px;
+}
+
+#image { 
+    opacity: 0.5;
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+#allergies { 
+    font-weight: bold;
+} 
+
+#burgers { 
+    background-color: black;
+    color: white;
+    margin: 20px;
+    border: 2px dashed white;
+    padding: 20px;  
+} 
+
+#contact { 
+    margin: 20px;
+    border: 2px dashed black;
+    padding: 20px;
+} 
+  
+.wrapper  {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+button:hover {
+    background-color: green;
+    cursor: pointer;
+ }
