@@ -1,129 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="en">
-   <head>
-       <title>Hamburgare</title>
-       <meta charset="utf-8"/>
-       <link rel=stylesheet type="text/css" href="style.css" />
-   </head>
-
-   <body>
-        <header class="welcome">
-         <img id="image" src="https://i.pinimg.com/originals/3f/8c/c4/3f8cc4fe23951bc32de7e97267706916.jpg" alt="span" title="Välkommen">
-         <h1 id="title">Välkommen till BEANS&BURGERS</h1>
-
-        </header>
-        <main>
-
-            <section id="burgers"> 
-                <h2> Välj din hamburgare </h2>
-                <nav> Hamburgarmenu </nav>
-            <div class = "wrapper">
-                <div class="burgeritem a">
-                    <h3> Beany delicious </h3>
-               
-                    <img src="https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_1200,h_1200,c_lfill/imagevaultfiles/id_193086/cf_259/bonburgare_pa_kidneybonor_med_avokadorora.jpg" alt="span" title="Bönburgare på kidneybönor" style="width: 200px;">
-
-                        <ul>
-                            <li>kidneybönor</li>
-                            <li>Syltad rödlök</li>
-                            <li>Avocadoröra</li>
-                            <li> Innehåller <span id="allergies"> gluten </span> </li>
-                            <li> Innehåller <span id="allergies">laktos </span></li>
-                        </ul>
-
-                </div>   
-    
-                <div class="burgeritem b">
-                    <h3> Beany delicious 1.0 </h3>
-             
-                        <img src="https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_220407/cf_259/bon-_och_majsburgare.jpg" alt="span" title="Bön- och majsburgare " style="width: 200px;">
-
-
-                        <ul>
-                            <li>kidneybönor</li>
-                            <li>Majs</li>
-                            <li>Chilimayo</li>
-                            <li> Innehåller <span id="allergies"> gluten </span> </li>
-                            <li> Innehåller <span id="allergies">laktos </span></li>
-                        </ul>
-
-                </div>
-
-                <div class="burgeritem c">
-                    <h3> Beany delicious 2.0 </h3>
-
-                        <img src="https://res.cloudinary.com/coopsverige/images/w_1200,h_1200/v1521205971/281117/Bbq-+burgare+på+kidneybönor.jpg" alt="span" title="Bbq-burgare på kidneybönor" style="width: 200px;">
-            
-                        <ul>
-                            <li>kidneybönor</li>
-                            <li>Barbequesås</li>
-                            <li>Majonäs</li>
-                            <li> Innehåller <span id="allergies"> gluten </span> </li>
-                            <li> Innehåller <span id="allergies">laktos </span></li>
-                        </ul>
-
-                </div>
-            </div> 
-            </section>
-            
-            <section id="contact">
-
-                <h2> Kundinformation </h2>
-                <nav> Nödvändig information </nav>
-
-                 <form>
-                        <p>
-                            <label for="Namn">Namn</label><br>
-                            <input type="text" id="För- och efternamn" name="För- och efternamn" required="required" placeholder="För- och efternamn">
-                        </p>
-                        <p>
-                            <label for="E-mail">E-mail</label><br>
-                            <input type="email" id="E-mail adress" name="Email" placeholder="E-mail adress">
-                        </p>
-                        <p>
-                            <label for="Gata">Gata</label><br>
-                            <input type="text" id="Gatunamn" name="Gatunamn" required="required" placeholder="Gatunamn">
-                        </p>
-                        <p>
-                            <label for="Gatunummer">Gatunummer</label><br>
-                            <input type="number" id="Gatunummer" name="Gatunummer" required="required" placeholder="Gatunummer">
-                        </p>
-
-                        <p>
-                            <label for="Betalmedel">Betalmedel</label><be>
-                            <select id="Välj" name="btm">
-                                <option selected="selected" >Betalkort</option>
-                                <option>Swish</option>
-                                <option>Klarna</option>
-                                <option>Paypal</option>
-                                <option>Faktura</option>
-                            </select>
-                         </p>
-                         <label for="Kön">Kön</label><br>
-                        
-                            <input type="radio" id="Kvinna" name="Kön" value="Kvinna">
-                            <label for="Kvinna">Kvinna</label><br>
-                            <input type="radio" id="Man" name="Kön" value="Man">
-                            <label for="Man">Man</label><br>
-                            <input type="radio" id="Icke-binär" name="Kön" value="Icke-binär">
-                            <label for="Icke-binär">Icke-binär</label><br>
-                            <input type="radio" id="Ange ej" name="Kön" value="Ange ej">
-                            <label for="Ange ej">Ange ej</label><br>
-                        </p>
-
-                 </form>
-
-            </section>
-
-            <button type="submit">
-                <img src="https://static.vecteezy.com/ti/gratis-vektor/p3/4618623-skicka-meddelande-glyph-ikon-siluett-symbol-e-postbrev-negativt-rymden-vektor-isolerad-illustration-vector.jpg" style="width: 40px; height: 40px;" >
-                Slutför beställning!
-              </button>
-        
-         </main>
-         <hr>
-         <footer>
-            &COPY; 2022 BEANS&BURGERS INC
-        </footer
-    </body>
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>
