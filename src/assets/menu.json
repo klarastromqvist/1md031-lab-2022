@@ -1,0 +1,27 @@
+
+[
+    {
+      "name": "Beany delicious",
+      "calories": 600,
+      "gluten": true,
+      "lactose": true,
+      "url": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_1200,h_1200,c_lfill/imagevaultfiles/id_193086/cf_259/bonburgare_pa_kidneybonor_med_avokadorora.jpg"
+    }
+  
+    ,{
+        "name": "Beany delicious 1",
+        "calories": 800,
+        "gluten": true,
+        "lactose": true,
+        "url": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_220407/cf_259/bon-_och_majsburgare.jpg"
+      }
+
+      ,{
+        "name": "Beany delicious 2",
+        "calories": 1000,
+        "gluten": false,
+        "lactose": true,
+        "url": "https://res.cloudinary.com/coopsverige/images/w_1200,h_1200/v1521205971/281117/Bbq-+burgare+på+kidneybönor.jpg"
+      }
+
+]
