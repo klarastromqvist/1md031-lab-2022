@@ -7,7 +7,7 @@
         </div>
         <button v-on:click="clearQueue">Clear Queue</button>
       </div>
-      <div id="dots" v-bind:style="{ background: 'url(' + require('../../public/img/polacks.jpg')+ ')' }">
+      <div id="dots">
           <div v-for="(order, key) in orders" v-bind:style="{ left: order.details.x + 'px', top: order.details.y + 'px'}" v-bind:key="'dots' + key">
             {{ key }}
           </div>
@@ -17,7 +17,7 @@
   <script>
   import io from 'socket.io-client'
   const socket = io();
-  
+
   export default {
     name: 'DispatcherView',
     data: function () {
@@ -47,21 +47,20 @@
     padding: 1em;
   }
   #dots {
-    position: relative;
-    margin: 0;
-    padding: 0;
+    width: 1400px;
+    height: 1000px;
+    background: url("https://valresultat.svt.se/2022/map/images/03800250-valdistrikt-834x585.jpeg");
+    position:absolute;
     background-repeat: no-repeat;
-    width:1920px;
-    height: 1078px;
-    cursor: crosshair;
+    background-size: contain;
   }
   
   #dots div {
     position: absolute;
     background: black;
     color: white;
-    border-radius: 10px;
-    width:20px;
+    border-radius: 50px;
+    width:50px;
     height:20px;
     text-align: center;
   }

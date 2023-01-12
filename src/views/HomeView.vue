@@ -197,11 +197,12 @@ export default {
 
 <style>
   #map {
-    width: 1920px;
-    height: 1078px;
-    background: url("/Users/klarastromqvist/Documents/1md031-lab-2022/public/img/polacks.jpg");
+    width: 1400px;
+    height: 1000px;
+    background: url("https://valresultat.svt.se/2022/map/images/03800250-valdistrikt-834x585.jpeg");
     position:absolute;
     background-repeat: no-repeat;
+    background-size: contain;
   }
 
   body {
